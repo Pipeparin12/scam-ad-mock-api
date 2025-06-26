@@ -1,4 +1,3 @@
-# 'https://hpizxkrurgzlxbryfhzv.supabase.co/functions/v1/insert-mock-ad'
 import asyncio
 import aiohttp
 from tqdm import tqdm
@@ -9,9 +8,6 @@ import json
 from supabase import create_client
 
 # === Supabase Setup ===
-SUPABASE_URL = "https://hpizxkrurgzlxbryfhzv.supabase.co"         # replace
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhwaXp4a3J1cmd6bHhicnlmaHp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg1MjUyNzMsImV4cCI6MjA2NDEwMTI3M30.LXsxY5qGgWpCgteCC_0thnyXQ280NpP9X2H4gwOmfdQ"                    # replace
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 SUPABASE_TABLE = "api_data"
 STORAGE_BUCKET = "adsimages/ads"
